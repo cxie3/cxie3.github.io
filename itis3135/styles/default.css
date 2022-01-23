@@ -1,0 +1,28 @@
+body
+{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #143109;
+    background:#ACE1AF;
+
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+h1 {
+    font-family: Copperplate;
+    font-weight: 100;
+    color: #143109;
+    background:#ACE1AF
+}
+
+h2 {
+    font-family: Copperplate;
+    font-weight: 100;
+    color: #461316;
+    background:#ACE1AF
+}
