@@ -3,23 +3,24 @@ body{
     color: #143109;
     background:#ACE1AF;
 
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 header, footer{
+    font-family: 'Impact', sans-serif;
 	text-align: center;
 }
 
 h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Impact', sans-serif;
     font-weight: 100;
     color: #143109;
     background:#ACE1AF
 }
 
 h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Impact', sans-serif;
     font-weight: 100;
     color: #461316;
     background:#ACE1AF
