@@ -9,12 +9,14 @@ body{
 
 header, footer{
     font-family: 'Impact', sans-serif;
+    font-weight: 200;
 	text-align: center;
 }
 
 h1 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
+    font-size: 32;
     color: #143109;
     background:#ACE1AF
 }
@@ -22,6 +24,29 @@ h1 {
 h2 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
+    font-size: 24;
     color: #461316;
     background:#ACE1AF
+}
+
+h3 {
+    font-family: 'Impact', sans-serif;
+    font-weight: 100;
+    color: #461316;
+    background:#ACE1AF
+}
+
+h4 {
+    font-family: 'Impact', sans-serif;
+    font-weight: 100;
+    font-size: 18;
+    color: #461316;
+    background:#ACE1AF
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
