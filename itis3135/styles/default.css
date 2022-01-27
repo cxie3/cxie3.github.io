@@ -1,7 +1,7 @@
 body{
     font-family: 'Trebuchet MS', sans-serif;
-    color: #143109;
-    background:#ACE1AF;
+    color: #D1E8E2;
+    background:#2C3531;
 
 	margin-left: 200px;
 	margin-right: 200px;
@@ -17,30 +17,30 @@ h1 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
     font-size: 32;
-    color: #143109;
-    background:#ACE1AF
+    color: #FFCB9A;
+    background:#2C3531
 }
 
 h2 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
     font-size: 24;
-    color: #461316;
-    background:#ACE1AF
+    color: #D9B08C;
+    background:#2C3531
 }
 
 h3 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
-    color: #461316;
-    background:#ACE1AF
+    color: #FFCB9A;
+    background:#2C3531
 }
 
 h4 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
     font-size: 18;
-    color: #461316;
-    background:#ACE1AF
-    text-align: center;
+    color: #FFCB9A;
+    background:#2C3531;
+    text-align: center
 }
