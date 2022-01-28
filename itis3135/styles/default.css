@@ -1,4 +1,5 @@
-body{
+body
+{
     font-family: 'Trebuchet MS', sans-serif;
     color: #bfc9cb;
     background:#252d35;
@@ -7,13 +8,17 @@ body{
 	margin-right: 200px;
 }
 
-header, footer{
+header, footer
+{
     font-family: 'Impact', serif;
     font-weight: 200;
 	text-align: center;
+    color: #ace0af;
+    background:#252d35
 }
 
-h1 {
+h1 
+{
     font-family: 'Impact', serif;
     font-weight: 100;
     font-size: 32;
@@ -21,7 +26,8 @@ h1 {
     background:#252d35
 }
 
-h2 {
+h2 
+{
     font-family: 'Impact', serif;
     font-weight: 100;
     font-size: 24;
@@ -29,18 +35,31 @@ h2 {
     background:#252d35
 }
 
-h3 {
+h3 
+{
     font-family: 'Impact', sans-serif;
     font-weight: 100;
     color: #ace0af;
     background:#252d35
 }
 
-h4 {
+h4 
+{
     font-family: 'Impact', sans-serif;
     font-weight: 100;
     font-size: 18;
     color: #ace0af;
     background:#252d35;
     text-align: center
+}
+
+a {
+	text-decoration: none;
+	color: #48f3ae;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ace0af;
 }
