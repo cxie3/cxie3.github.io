@@ -3,33 +3,36 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Christina Xie | ITIS 3135 | Tables</title>
+    <title>Christina Xie &#8226; ITIS 3135 &#8226; Tables</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
 </head>
 
     <header>
         <nav>
-            <a href="index.html">Home</a>&ndash;
-            <a href="introduction.html">Introduction</a>&ndash;
-            <a href="contract.html">Contract</a>&ndash;
+            <a href="index.html">Home</a> &#8226;
+            <a href="introduction.html">Introduction</a> &#8226;
+            <a href="contract.html">Contract</a> &#8226;
+            <a href="tables.html">Tables</a> &#8226;
+            <a href="forms.html">Forms</a> &#8226;
             <a href="http://webpages.uncc.edu/cxie3/">Charlotte.edu</a>
         </nav>
     </header>
 
     <main>
         <h2>HTML Tables</h2>
-        <h3>Table Information</h3>
+        <h3>My Tabular Data</h3>
         <ol>
             <li>Christina Xie cxie3@uncc.edu 1</li>
             <li>Bob Ross bross@art.edu 50</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Uncle Iroh uncleiroh@firenation.com 35</li>
+            <li>Tom Holland tomholland@marvel.com 20</li>
+            <li>Pooh Bear poohbe3@gmail.com 10</li>
+            <li>John Cena johncena@ufc.com 25</li>
+            <li>Sun Kist sunkist.soda.com 25</li>
+            <li>Emily Le emilyhle1@gmail.com 2</li>
         </ol>
 
-        <h3>My Tabular Data</h3>
+        <h3>Employee Data in Simple Table</h3>
 
         <table>
             <thead>
@@ -51,29 +54,34 @@
                     <td class="right">50</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="right"></td>
+                    <td>Uncle Iroh</td>
+                    <td>uncleiroh@firenation.com</td>
+                    <td class="right">35</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="right"></td>
+                    <td>Tom Holland</td>
+                    <td>tomholland@marvel.com</td>
+                    <td class="right">20</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="right"></td>
+                    <td>Pooh Bear</td>
+                    <td>poohbe3@gmail.com</td>
+                    <td class="right">10</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="right"></td>
+                    <td>John Cena</td>
+                    <td>johncena@ufc.com</td>
+                    <td class="right">25</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="right"></td>
+                    <td>Sun Kist</td>
+                    <td>sunkist@soda.com</td>
+                    <td class="right">25</td>
+                </tr>
+                <tr>
+                    <td>Emily Le</td>
+                    <td>emilyhle1@gmail.com</td>
+                    <td class="right">2</td>
                 </tr>
             </tbody>
         </table>
@@ -82,93 +90,90 @@
         <figure>
             <figcaption>Employee Information</figcaption>
             <table>
-                <thead>
-                    <tr>
-                        <th id="department">Department</th>
-                        <th id="name">Name</th>
-                        <th id="email">E-mail</th>
-                        <th id="years" class="right">Years of Service</th>
-                        <th id="salary">Monthly Salary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td headers="department" rowspan="3" class="brown">HR</td>
-                        <td headers="name">Christina Xie</td>
-                        <td headers="email">cxie3@uncc.edu</td>
-                        <td headers="years" class="right">1</td>
-                        <td headers="salary">$2,000</td>
-                    </tr>
-                    <tr>
-                        <td headers="name">Bob Ross</td>
-                        <td headers="email">bross@art.edu</td>
-                        <td headers="years" class="right">50</td>
-                        <td headers="salary">$100,000</td>
-                    </tr>
-                    <tr>
-                        <td headers="name"></td>
-                        <td headers="email"></td>
-                        <td headers="years" class="right"></td>
-                        <td headers="salary">$</td>
-                    </tr>
-                    <tr>
-                        <td headers="name"></td>
-                        <td headers="email"></td>
-                        <td headers="years" class="right"></td>
-                        <td headers="salary">$</td>
-                    </tr>
-                    <tr>
-                        <td headers="name"></td>
-                        <td headers="email"></td>
-                        <td headers="years" class="right"></td>
-                        <td headers="salary">$</td>
-                    </tr>
-                    <tr>
-                        <td headers="name"></td>
-                        <td headers="email"></td>
-                        <td headers="years" class="right"></td>
-                        <td headers="salary">$</td>
-                    </tr>
-                    <tr>
-                        <td headers="name"></td>
-                        <td headers="email"></td>
-                        <td headers="years" class="right"></td>
-                        <td headers="salary">$</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3" class="right">Total Years of Service</td>
-                        <td headers="years" class="right"></td>
-                        <td headers="salary" class="right">$</td>
-                    </tr>
-                </tfoot>
+                <tr class = "tableheader">
+                    <th>Category</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    <th>Monthly Salary</th>
+                </tr>
+                <tr>
+                    <td rowspan = "2">Founder</td>
+                    <td>Christina Xie</td>
+                    <td>cxie3@uncc.edu</td>
+                    <td>1</td>
+                    <td rowspan = "2">$20,000</td>
+                </tr>
+                <tr>
+                    <td>Bob Ross</td>
+                    <td>bross@art.edu</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2">Upper Management</td>
+                    <td>Uncle Iroh</td>
+                    <td>uncleiroh@firenation.com</td>
+                    <td>35</td>
+                    <td rowspan = "2">$10,000</td>
+                </tr>
+                <tr>
+                    <td>Tom Holland</td>
+                    <td>tomholland@marvel.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Software Developers</td>
+                    <td>Pooh Bear</td>
+                    <td>poohbe3@gmail.com</td>
+                    <td>10</td>
+                    <td rowspan = "2">$20,000</td>
+                </tr>
+                <tr>
+                    <td>John Cena</td>
+                    <td>johncena@ufc.com</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Web Developers</td>
+                    <td>Sun Kist</td>
+                    <td>sunkist.soda.com</td>
+                    <td>25</td>
+                    <td rowspan = "2">$20,000</td>
+                </tr>
+                <tr>
+                    <td>Emily Le</td>
+                    <td>emilyhle1@gmail.com</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th colspan = "3">Total Years of Service</th>
+                    <th>168 years</th>
+                    <th>$70,000</th>
+                </tr>
             </table>
         </figure>
 
     </main>
 
-</body>
-
-<footer>
-    <nav>
-        <a href="http://webpages.uncc.edu/cxie3/">Charlotte.edu</a>&ndash;
-        <a href="https://github.com/cxie3">Github</a>&ndash;
-        <a href="https://cxie3.github.io/">Github.io</a>&ndash;
-        <a href="https://www.freecodecamp.org/cxie3/">freeCodeCamp</a>&ndash;
-        <a href="https://www.linkedin.com/in/christina-xie-7399191b8">LinkedIn</a>
-    </nav>
-    Designed by Xie Corp. &copy;2022
-    <p>
-        <a href="https://validator.w3.org/">
-            <img src="images\button_validation_html5.png" class="image" alt="HTML Validation">
-        </a>
-        <a href="https://jigsaw.w3.org/css-validator/">
-            <img src="images\button_validation_css.png" class="image" alt="CSS Validation">
-        </a>
-    </p>
-
-</footer>
-</body>
-
-</html>
+    <footer>
+        <nav>
+            <a href="http://webpages.uncc.edu/cxie3/">Charlotte.edu</a>&ndash;
+            <a href="https://github.com/cxie3">Github</a>&ndash;
+            <a href="https://cxie3.github.io/">Github.io</a>&ndash;
+            <a href="https://www.freecodecamp.org/cxie3/">freeCodeCamp</a>&ndash;
+            <a href="https://www.linkedin.com/in/christina-xie-7399191b8">LinkedIn</a>
+        </nav>
+        Designed by Xie Corp. &copy;2022
+        <p>
+            <a href="https://validator.w3.org/">
+                <img src="images/button_validation_html5.png" class="image" alt="HTML Validation">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/">
+                <img src="images/button_validation_css.png" class="image" alt="CSS Validation">
+            </a>
+        </p>
+    
+    </footer>
+    </body>
+    
+    </html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Christina Xie &#8226; ITIS 3135 &#8226; Forms</title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+</head>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a> &#8226;
+            <a href="introduction.html">Introduction</a> &#8226;
+            <a href="contract.html">Contract</a> &#8226;
+            <a href="tables.html">Tables</a> &#8226;
+            <a href="forms.html">Forms</a> &#8226;
+            <a href="http://webpages.uncc.edu/cxie3/">Charlotte.edu</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>HTML Form</h2>
+
+        <h3>Welcome to our company's complementary snack shop!</h3>
+
+        <form class = "formformat" action = "#">
+            <label>Name:</label>
+            <input type = "text" id = "name" name = "name">
+            <br><br>
+
+            <label>Phone Number:</label>
+            <input type = "text" id = "phonenum" name = "phonenum">
+            <br><br>
+
+            <label>Email:</label>
+            <input type = "text" id = "email" name = "email">
+            <br><br>
+
+            <br>
+            <label>What snack would you like? (pick at least one):</label>
+            <input type = "checkbox" id = "cookie" name = "snack" value = "cookie">
+            <label for = "cookie">Cookie</label><br>
+            <input type = "checkbox" id = "cake" name = "snack" value = "cake">
+            <label for = "cake">Cake</label><br>
+            <input type = "checkbox" id = "cheese" name = "snack" value = "cheese">
+            <label for = "cheese">Cheese</label><br>
+            <input type = "checkbox" id = "carrot" name = "snack" value = "carrot">
+            <label for = "carrot">Carrot</label><br>
+            <br><br>
+            
+            <label>Allergic to:</label>
+            <select name = "language" id = "language">
+                <option value = "none">none</option>
+                <option value = "peanuts">peanuts</option>
+                <option value = "eggs">eggs</option>
+                <option value = "shellfish">shellfish</option>
+                <option value = "soy">soy</option>
+            </select>
+            <br><br>
+
+            <label>Flavor of Milk:</label>
+            <br>
+            
+            <input type = "radio" id = "normal" name = "milk" value = "normal">
+            <label for = "normal">Normal</label>
+            
+            <input type = "radio" id = "strawberry" name = "milk" value = "strawberry"> 
+            <label for = "strawberry">Strawberry</label>
+            
+            <input type = "radio" id = "chocolate" name = "milk" value = "chocolate"> 
+            <label for = "chocolate">Chocolate</label>
+            <br><br>
+            
+            <input type = "reset">
+            <button type = "submit">Submit</button>
+        </form>
+    </main>
+
+<footer>
+    <nav>
+        <a href="http://webpages.uncc.edu/cxie3/">Charlotte.edu</a>&ndash;
+        <a href="https://github.com/cxie3">Github</a>&ndash;
+        <a href="https://cxie3.github.io/">Github.io</a>&ndash;
+        <a href="https://www.freecodecamp.org/cxie3/">freeCodeCamp</a>&ndash;
+        <a href="https://www.linkedin.com/in/christina-xie-7399191b8">LinkedIn</a>
+    </nav>
+    Designed by Xie Corp. &copy;2022
+    <p>
+        <a href="https://validator.w3.org/">
+            <img src="images/button_validation_html5.png" class="image" alt="HTML Validation">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/">
+            <img src="images/button_validation_css.png" class="image" alt="CSS Validation">
+        </a>
+    </p>
+
+</footer>
+</body>
+
+</html>

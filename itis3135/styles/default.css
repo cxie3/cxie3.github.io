@@ -5,12 +5,14 @@ body
     background:#252d35;
 	margin-left: 200px;
 	margin-right: 200px;
+    letter-spacing: 1px;
 }
 
 header, footer
 {
-    font-family: 'Impact', serif;
-    font-weight: 200;
+    margin-top: 50px;
+	margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
 	text-align: center;
     color: #ace0af;
     background:#252d35
@@ -18,8 +20,7 @@ header, footer
 
 h1 
 {
-    font-family: 'Impact', serif;
-    font-weight: 100;
+    font-family: 'Roboto', serif;
     font-size: 32;
     color: #ace0af;
     background:#252d35
@@ -27,8 +28,7 @@ h1
 
 h2 
 {
-    font-family: 'Impact', serif;
-    font-weight: 100;
+    font-family: 'Roboto', serif;
     font-size: 24;
     color: #ace0af;
     background:#252d35
@@ -36,16 +36,14 @@ h2
 
 h3 
 {
-    font-family: 'Impact', sans-serif;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
     color: #ace0af;
     background:#252d35
 }
 
 h4 
 {
-    font-family: 'Impact', sans-serif;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
     font-size: 18;
     color: #ace0af;
     background:#252d35;
@@ -61,4 +59,45 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #ace0af;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
+
+table, td, tr
+{
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th
+{
+	background-color: #000000;
+	color: #d7f1e5;
+}
+
+table tr:nth-child(even)
+{
+	background-color: #384e45;
+	color: #fff;
+}
+
+.formformat
+{
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: #384e45;
 }
