@@ -1,46 +1,46 @@
 body{
     font-family: 'Trebuchet MS', sans-serif;
-    color: #D1E8E2;
-    background:#2C3531;
+    color: #bfc9cb;
+    background:#252d35;
 
 	margin-left: 200px;
 	margin-right: 200px;
 }
 
 header, footer{
-    font-family: 'Impact', sans-serif;
+    font-family: 'Impact', serif;
     font-weight: 200;
 	text-align: center;
 }
 
 h1 {
-    font-family: 'Impact', sans-serif;
+    font-family: 'Impact', serif;
     font-weight: 100;
     font-size: 32;
-    color: #FFCB9A;
-    background:#2C3531
+    color: #ace0af;
+    background:#252d35
 }
 
 h2 {
-    font-family: 'Impact', sans-serif;
+    font-family: 'Impact', serif;
     font-weight: 100;
     font-size: 24;
-    color: #D9B08C;
-    background:#2C3531
+    color: #ace0af;
+    background:#252d35
 }
 
 h3 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
-    color: #FFCB9A;
-    background:#2C3531
+    color: #ace0af;
+    background:#252d35
 }
 
 h4 {
     font-family: 'Impact', sans-serif;
     font-weight: 100;
     font-size: 18;
-    color: #FFCB9A;
-    background:#2C3531;
+    color: #ace0af;
+    background:#252d35;
     text-align: center
 }
