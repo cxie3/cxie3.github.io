@@ -2,7 +2,7 @@ body
 {
     font-family: 'Trebuchet MS', sans-serif;
     color: #bfc9cb;
-    background: #282c35;
+    background: #282c34;
 	margin-left: 200px;
 	margin-right: 200px;
     letter-spacing: 1px;
@@ -15,7 +15,7 @@ header, footer
     font-family: 'Roboto', sans-serif;
 	text-align: center;
     color: #ace0af;
-    background:#282c35
+    background:#282c34
 }
 
 h1 
@@ -23,7 +23,7 @@ h1
     font-family: 'Roboto', serif;
     font-size: 32;
     color: #ace0af;
-    background:#282c35
+    background:#282c34
 }
 
 h2 
@@ -31,14 +31,14 @@ h2
     font-family: 'Roboto', serif;
     font-size: 24;
     color: #ace0af;
-    background:#282c35
+    background:#282c34
 }
 
 h3 
 {
     font-family: 'Roboto', sans-serif;
     color: #ace0af;
-    background:#282c35
+    background:#282c34
 }
 
 h4 
@@ -46,7 +46,7 @@ h4
     font-family: 'Roboto', sans-serif;
     font-size: 18;
     color: #ace0af;
-    background:#282c35;
+    background:#282c34;
     text-align: center
 }
 
