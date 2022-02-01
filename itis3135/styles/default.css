@@ -21,7 +21,7 @@ header, footer
 h1 
 {
     font-family: 'Roboto', serif;
-    font-size: 32;
+    font-size: 32px;
     color: #ace0af;
     background:#282c34
 }
@@ -29,7 +29,7 @@ h1
 h2 
 {
     font-family: 'Roboto', serif;
-    font-size: 24;
+    font-size: 24px;
     color: #ace0af;
     background:#282c34
 }
@@ -44,7 +44,7 @@ h3
 h4 
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18;
+    font-size: 18px;
     color: #ace0af;
     background:#282c34;
     text-align: center
@@ -99,5 +99,5 @@ table tr:nth-child(even)
 {
 	margin-left: 200px;
 	margin-right: 200px;
-	background-color: #282c35;
+	background-color: #1c1f25;
 }
