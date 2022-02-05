@@ -1,3 +1,5 @@
+/* https://coolors.co/282c34-ace0af-48f3ae-a9c1c5-1c1f25 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 body
 {
     font-family: 'Trebuchet MS', sans-serif;
@@ -12,7 +14,7 @@ header, footer
 {
     margin-top: 50px;
 	margin-bottom: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 	text-align: center;
     color: #ace0af;
     background:#282c34
@@ -20,7 +22,7 @@ header, footer
 
 h1 
 {
-    font-family: 'Roboto', serif;
+    font-family: 'Ubuntu', serif;
     font-size: 32px;
     color: #ace0af;
     background:#282c34
@@ -28,7 +30,7 @@ h1
 
 h2 
 {
-    font-family: 'Roboto', serif;
+    font-family: 'Ubuntu', serif;
     font-size: 24px;
     color: #ace0af;
     background:#282c34
@@ -36,14 +38,14 @@ h2
 
 h3 
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #ace0af;
     background:#282c34
 }
 
 h4 
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     color: #ace0af;
     background:#282c34;
