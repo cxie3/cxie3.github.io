@@ -1,9 +1,9 @@
 
 $(function () 
 {
-  $("#header-nav").load("header.html");
+  $("#header-nav").load("../components/header.html");
 });
 $(function () 
 {
-  $("#footer-nav").load("footer.html");
+  $("#footer-nav").load("../components/footer.html");
 });
