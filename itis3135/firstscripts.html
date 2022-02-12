@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Christina Xie &#8226; ITIS 3135 &#8226; First JS</title>
+    <script src="scripts/firstscripts.js"></script>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+        <main>
+            <h2>
+                Christina Xie: First JS
+                <script>
+                    var today = new Date()
+                    var date = today.toDateString();
+                    var time = today.toLocaleTimeString();
+                    document.write("<h3>Date: " + date + "  Time: " + time + "</h3>");
+                </script>
+            </h2>
+
+            <p>
+			Name: <input type = "text" id = "names">
+			<br><br>
+
+			How are you?: <input type = "text" id = "feelings">
+			<br><br>
+            </p>
+
+            <h3 id="welcome"></h3>
+			<input onclick="greeting()" type = "button" name = "submit" id = "submit" value ="Submit">
+            <br><br>
+
+            <button onclick="showMenu()">Menu</button>
+		    <p id="menu"></p>
+		    <br><br>
+
+            <button onclick="showSpecial()">Special</button>
+		    <p id="special"></p>
+		    <br><br>
+
+            <button onclick="showPrices()">Prices</button>
+		    <p id="price"></p>
+		    <br><br>
+
+            Email: <input type = "text" id = "emails">
+			<br><br>
+
+            <p id="added"></p>
+            <input onclick="addEmail()" type = "button" name = "email" id = "email" value ="Enter Email for Updates">
+
+            <br><br>
+
+            <button onclick="doneShopping()">Finish</button>
+		    <p id="finish"></p>
+
+
+            <br />
+        </main>
+<footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+<script src="scripts/HTMLInclude.js"></script>
+    </body>
+    </html>
