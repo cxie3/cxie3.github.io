@@ -5,6 +5,7 @@ function scriptTest()
 
 var numSides;
 
+//getter and setter for numSide
 function setSides(numSide)
 {
     this.numSides = numSide;
@@ -15,14 +16,19 @@ function getSides()
     return numSides;
 }
 
+// gets the shape based off of the number of sides
 function getShape()
 {
 
+    //sets the num of sides based off of user input
     setSides(document.getElementById("sides").value);
 
+    //makes sure the user input is a valid input
     validateEntry();
 
+    //set sides to equal the absolute value and round the user input
     var sides = Math.abs(Math.round(getSides()));
+    //switch case is easiest to print out the type of polygon
     switch(sides)
     {
         case 1:
@@ -61,6 +67,7 @@ function getShape()
 
 function validateEntry()
 {
+    //make sure the user input put a number that was between the rounded and absolute val of 1 and 10
     if (Math.abs(Math.round(getSides())) > 10 || Math.abs(Math.round(getSides())) < 1)
     {
         document.getElementById("polygon").innerHTML = "This number is invalid. Try again.";
