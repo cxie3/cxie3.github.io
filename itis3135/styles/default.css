@@ -103,3 +103,11 @@ table tr:nth-child(even)
 	margin-right: 200px;
 	background-color: #1c1f25;
 }
+
+.button
+{
+	background-color: #ace0af;
+	border: 4px solid #384e45;
+	border-radius: 2px;
+	font-size: 30px;
+}
