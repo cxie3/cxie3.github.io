@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="xie-Activity_Accessibility.css">
+  <title>Test For Accessibility</title>
+
+</head>
+
+<body>
+  <header>
+       <h1>Christina Xie - ITIS3135</h1>
+  </header>
+  <main>
+      <h2>Accessibility</h2>
+      <h3>Candle Delight</h3>
+      <table class="center">
+
+      <caption><i>Candles</i></caption>
+      <thead>
+        <tr>
+          <!-- identify table headers <th> with scope attribute -->
+          <th scope="col" class="textcolor">TYPE</th>
+          <th scope="col" class="textcolor">PRODUCT</th>
+          <th scope="col" class="textcolor">FEATURES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="textcolor">Birthday Candles</th>
+          <td><img src="images/Birthday-Candles.jpg" alt="birthday candles" height="100" width="100"></td>
+          <td>
+              <ol>
+                <li>Comes in a range of fun, vibrant colors</li>
+                <li>Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+                <li>Offers a way to personalize customers' desserts on birthdays and anniversaries</li>
+              </ol>
+          </td>
+        </tr>
+        <tr>
+            <th scope="row" class="textcolor">Votives</th>
+            <td><img src="images/voltives.jpeg" alt="voltives" height="100" width="100"></td>
+            <td>
+                <ol>
+                    <li>Inexpensive and easy to use</li>
+                    <li>Bigger than tea lights to provide longer burn times, making them better for longer events</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+              <th scope="row" class="textcolor">Taper Candles</th>
+              <td><img src="images/taper-candles.jpg" alt="taper candles" height="100" width="100"></td>
+              <td>
+                  <ol>
+                    <li>Commonly known as window candles</li>
+                    <li>Long, slender constructions add dimension to table tops</li>
+                </ol>
+              </td>
+            </tr>
+      </tbody>
+    </table>
+     <!--Add the form here-->
+    <h2 class="textcolor">Enter your name and phone number to win a gift!</h2>
+    <form action="#">
+        <label class="textcolor">Name:</label>
+        <input type="text" name="firstname" value="First Name" required/>
+        <input type="text" name="lastname" value="Last Name" required/><br/><br/>
+
+        <label class="textcolor">Phone:</label>
+        <input type="text" name="phone"required/>
+
+        <input type="submit" name="submit" value="submit" aria-required="true" class="buttonbackground">
+
+    </form>
+
+    <div class="whitespace"></div>
+    <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+    <div class="whitespace"></div>
+
+    <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+      color and background color passes WCAG standard!</a>
+  </main>
+
+  <footer>
+      <a href="https://validator.w3.org/check?uri=referer">
+          <img src="images/button_validation_html5.png" alt="Link to HTML validator">
+      </a>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img src="images/button_validation_css.png" alt="Link to CSS validator">
+      </a>
+  </footer>
+</body>
+</html>
