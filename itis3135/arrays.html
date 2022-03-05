@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Christina Xie &#8226; ITIS 3135 &#8226; Cerulean Xerus &#8226; Contract</title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="scripts/arrays.js"></script>
+    
+</head>
+
+<header>
+    <div data-include="components/header.html"></div>
+</header>
+
+	<main>
+		<h2>Salary</h2>
+        <div class="centering">
+			<label for="name">Name: </label>
+            <select id="name" name="names">
+                <option value="A">Employee A</option>
+                <option value="B">Employee B</option>
+                <option value="C">Employee C</option>
+            </select>
+			<label for="salary">Salary: </label>
+			<input type="number" id="salary">
+        </div>
+        <br>
+
+        <div class="centering">
+			<input type="button" value="Add Salary" onclick="addSalary()">
+			<input type="button" value="Display Results" onclick="displayResult()">
+			<input type="button" value="Display Salary" onclick="displaySalary()">
+			<div id="results"></div>
+			<div id="result_table"></div>
+        </div>
+	</main>
+	<footer>
+		<div data-include="components/footer.html"></div>
+	</footer>
+	<script src="scripts/HTMLInclude.js"></script>
+</body>
+</html>
