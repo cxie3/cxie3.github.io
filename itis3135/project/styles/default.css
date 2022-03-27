@@ -111,3 +111,8 @@ table tr:nth-child(even)
 	border-radius: 2px;
 	font-size: 30px;
 }
+
+.lislideshow
+{
+	display: inline;
+}
