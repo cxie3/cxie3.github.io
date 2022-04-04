@@ -1,10 +1,10 @@
-/* https://coolors.co/282c34-ace0af-48f3ae-a9c1c5-1c1f25 */
+/* https://coolors.co/006d77-83c5be-edf6f9-ffddd2-e29578 */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 body
 {
     font-family: 'Trebuchet MS', sans-serif;
-    color: #bfc9cb;
-    background: #282c34;
+    color: #006D77;
+    background: #EDF6F9;
 	margin-left: 200px;
 	margin-right: 200px;
     letter-spacing: 1px;
@@ -16,45 +16,45 @@ header, footer
 	margin-bottom: 50px;
     font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-    color: #ace0af;
-    background:#282c34
+    color: #006D77;
+    background:#EDF6F9
 }
 
 h1 
 {
     font-family: 'Ubuntu', serif;
     font-size: 32px;
-    color: #ace0af;
-    background:#282c34
+    color: #006D77;
+    background:#EDF6F9
 }
 
 h2 
 {
     font-family: 'Ubuntu', serif;
     font-size: 24px;
-    color: #ace0af;
-    background:#282c34
+    color: #006D77;
+    background:#EDF6F9
 }
 
 h3 
 {
     font-family: 'Ubuntu', sans-serif;
-    color: #ace0af;
-    background:#282c34
+    color: #006D77;
+    background:#EDF6F9
 }
 
 h4 
 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
-    color: #ace0af;
-    background:#282c34;
+    color: #006D77;
+    background:#EDF6F9;
     text-align: center
 }
 
 a {
 	text-decoration: none;
-	color: #48f3ae;
+	color: #83C5BE;
 	font-weight: bold;
 }
 
@@ -78,41 +78,11 @@ nav
 	text-align: center;
 }
 
-table, td, tr
-{
-	border: 2px solid black;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-th
-{
-	background-color: #000000;
-	color: #d7f1e5;
-}
-
-table tr:nth-child(even)
-{
-	background-color: #384e45;
-	color: #fff;
-}
-
-.formformat
-{
-	margin-left: 200px;
-	margin-right: 200px;
-	background-color: #1c1f25;
-}
 
 .button
 {
-	background-color: #ace0af;
-	border: 4px solid #384e45;
+	background-color: #83C5BE;
+	border: 4px solid #006D77;
 	border-radius: 2px;
 	font-size: 30px;
-}
-
-.lislideshow
-{
-	display: inline;
 }
