@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#slider").bxSlider({
-        randomStart: true,
-        auto: true,
+        randomStart: true, //first image that’s displayed is selected randomly
+        auto: true, 
         moveSlides: 1,
         minSlides: 1,
         maxSlides: 1,
