@@ -5,6 +5,13 @@
     <meta charset="utf-8" />
     <title>Succulent Plant Pictures</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
+
+    <link href="magnify/dist/jquery.magnify.css" rel="stylesheet">
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="magnify/dist/jquery.magnify.js"></script>
+    <script src="scripts/magnify.js"></script>
+
 </head>
 <body>
     <header>
@@ -14,25 +21,42 @@
     <main>
         <div class="row"> 
             <div class="column">
-              <img src="images/f1.jpg" style="width:100%">
-              <img src="images/f2.jpg" style="width:100%">
-              <img src="images/f3.jpg" style="width:100%">
-              <img src="images/f4.jpg" style="width:100%">
-              <img src="images/f5.jpg" style="width:100%">
-              <img src="images/f6.jpg" style="width:100%">
+              <img src="images/f1.jpg" style="width:100%" alt = "flower">
+              <img src="images/f2.jpg" style="width:100%" alt = "flower">
+              <img src="images/f3.jpg" style="width:100%" alt = "flower">
+              <img src="images/f4.jpg" style="width:100%" alt = "flower">
+              <img src="images/f5.jpg" style="width:100%" alt = "flower">
+              <img src="images/f6.jpg" style="width:100%" alt = "flower">
             </div>
             <div class="column">
-                <img src="images/f7.jpg" style="width:100%">
-                <img src="images/f8.jpg" style="width:100%">
-                <img src="images/f9.jpg" style="width:100%">
-                <img src="images/f10.jpg" style="width:100%">
-                <img src="images/f11.jpg" style="width:100%">
-                <img src="images/f12.jpg" style="width:100%">
-                <img src="images/f13.jpg" style="width:100%">
+                <img src="images/f7.jpg" style="width:100%" alt = "flower">
+                <img src="images/f8.jpg" style="width:100%" alt = "flower">
+                <img src="images/f9.jpg" style="width:100%" alt = "flower">
+                <img src="images/f10.jpg" style="width:100%" alt = "flower">
+                <img src="images/f11.jpg" style="width:100%" alt = "flower">
+                <img src="images/f12.jpg" style="width:100%" alt = "flower">
+                <img src="images/f13.jpg" style="width:100%" alt = "flower">
             </div>  
         </div>  
             <!-- https://www.w3schools.com/howto/howto_js_image_grid.asp -->
           
+
+        <img src="images/f1.jpg" style="width:50%" alt = "flower"
+        data-magnify="gallery" 
+        data-caption="Group of Plants" 
+        data-src="images/f1.jpg">
+        
+
+
+        <img src="images/f2.jpg" style="width:50%" alt = "flower"
+        data-magnify="gallery" 
+        data-caption="Group of Plants" 
+        data-src="images/f1.jpg">
+
+        <img src="images/f3.jpg" style="width:50%" alt = "flower"
+        data-magnify="gallery" 
+        data-caption="Plant" 
+        data-src="images/f1.jpg">
     </main>
 
     <footer>

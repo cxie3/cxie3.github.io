@@ -5,6 +5,12 @@
     <meta charset="utf-8" />
     <title>Succulent Plant Pots</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
+
+    <link href="magnify/dist/jquery.magnify.css" rel="stylesheet">
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="magnify/dist/jquery.magnify.js"></script>
+    <script src="scripts/magnify.js"></script>
 </head>
 <body>
     <header>
@@ -13,7 +19,12 @@
 
     <main>
         <h2>Pots</h2>
-        <img src="images/flower2.jpg" class="image" alt="PotFlower" style="width:auto;height: 700px">
+        <img src="images/flower2.jpg"
+        data-magnify="gallery" 
+        data-caption="Succulent in a Pot" 
+        data-src="images/flower2.jpg"
+        alt="PotFlower" style="width:25%;height: 300px">
+
         <figcaption>Succulent in a Pot</figcaption>
 
         <p>
@@ -21,11 +32,11 @@
             The right pot needs to be used for the succulent plant to fit and effectively take up the water in the soil. 
         </p>
         <ul>
-            <li>Terracotta: breathable, promotes good water drainage and air circulation. Heavy and difficult to transport.</li><br>
-            <li>Ceramic: breathable, promotes good water drainage and air circulation.  Heavy and difficult to transport.</li><br>
-            <li>Metal: Good for short-term, temporary potting. Gains heat too quickly and temperatures in soil fluctuates easily. Not good for long term plotting.</li><br>
-            <li>Resin: good for big plants, lighter to carry and transport.</li><br>
-            <li>Plastic: good for big plants, lighter to carry and transport.</li><br>
+            <li>Terracotta: breathable, promotes good water drainage and air circulation. Heavy and difficult to transport.</li>
+            <li>Ceramic: breathable, promotes good water drainage and air circulation.  Heavy and difficult to transport.</li>
+            <li>Metal: Good for short-term, temporary potting. Gains heat too quickly and temperatures in soil fluctuates easily. Not good for long term plotting.</li>
+            <li>Resin: good for big plants, lighter to carry and transport.</li>
+            <li>Plastic: good for big plants, lighter to carry and transport.</li>
         </ul>
     </main>
 
